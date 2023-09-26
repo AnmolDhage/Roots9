@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <div >
       <Menu1 
-      image={`/src/assets/cover.png`}
+      image={`/public/cover.png`}
       title={`Our Menu`}
       />
       <Menu2/>

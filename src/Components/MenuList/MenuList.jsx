@@ -8,7 +8,7 @@ const MenuList = (props) => {
         <div>
             {
                 props.List.map((item,key)=>{
-                    return <Link to={item.link} key={key}>
+                    return <Link to={`/food/${item.link}`} key={key}>
                         <div className='flex items-center w-full justify-between my-6'>
                             <div>
                             <div className='text-2xl'>{item.title}</div>

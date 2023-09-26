@@ -9,7 +9,7 @@ const Menu1 = (props) => {
       {props.title}
       </div>
       <div className='absolute w-3/4 p-4'>
-       <Link to='/'><img src="/src/assets/logo.png" alt="" /></Link> 
+       <Link to='/'><img src="/public/logo.png" alt="" /></Link> 
       </div>
       </div>
   )

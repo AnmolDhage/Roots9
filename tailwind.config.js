@@ -8,7 +8,9 @@ export default {
     extend: {
       colors: {
         'brown': '#BB9981',
-        'green':'#10846F'
+        'green':'#10846F',
+        'gray':'EFEFEF',
+        'dark-brown':'#534340'
       },
     },
     fontFamily:{

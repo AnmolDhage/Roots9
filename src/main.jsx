@@ -10,6 +10,7 @@ import Menu from './Pages/Menu/Menu.jsx';
 import ErrorPage from './Pages/ErrorPage.jsx';
 import TypePage from './Pages/TypePage/TypePage.jsx';
 import { starterList } from './Data/MenuList.jsx';
+import FoodPage from './Pages/FoodPage/FoodPage.jsx';
 
 const router =createBrowserRouter([{
   path:'',
@@ -23,7 +24,7 @@ const router =createBrowserRouter([{
       path:'/starter',
       element:<
         TypePage
-        image={`/src/assets/starterCover.png`}
+        image={`/public/starterCover.png`}
         title={`Starter`}
         list={starterList}
       />
@@ -31,7 +32,7 @@ const router =createBrowserRouter([{
       path:'main-course',
       element:<
         TypePage
-        image={`/src/assets/menuCover.png`}
+        image={`/public/menuCover.png`}
         title={`Main Course`}
         list={starterList}
       />
@@ -39,9 +40,14 @@ const router =createBrowserRouter([{
       path:'chefs-recommended',
       element:<
         TypePage
-        image={`/src/assets/chefsReccCover.png`}
+        image={`/public/chefsReccCover.png`}
         title={`Chef's Recommended Specials`}
         list={starterList}
+      />
+    },{
+      path:'food/:dish',
+      element:<
+        FoodPage
       />
     }
 
