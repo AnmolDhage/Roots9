@@ -5,27 +5,27 @@ const Menu4 = () => {
 
     const types = [
         {
-            image: '/public/starter.png',
+            image: '/starter.png',
             title: 'Starter',
             link: '/starter'
         }, {
-            image: '/public/main course.png',
+            image: '/main course.png',
             title: 'Main Course',
             link: '/main-course'
         }, {
-            image: '/public/dessert.png',
+            image: '/dessert.png',
             title: 'Desserts',
             link: '/desserts'
         },{
-            image: '/public/world cuisine.png',
+            image: '/world cuisine.png',
             title: 'World Cuisine',
             link: '/world-cuisine'
         }, {
-            image: '/public/soup.png',
+            image: '/soup.png',
             title: 'World Cuisine Soups',
             link: '/soup'
         }, {
-            image: '/public/kidsMenu.png',
+            image: '/kidsMenu.png',
             title: 'Kids Menu',
             link: '/kidsMenu'
         },

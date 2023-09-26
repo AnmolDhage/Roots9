@@ -24,7 +24,7 @@ const router =createBrowserRouter([{
       path:'/starter',
       element:<
         TypePage
-        image={`/public/starterCover.png`}
+        image={`/starterCover.png`}
         title={`Starter`}
         list={starterList}
       />
@@ -32,7 +32,7 @@ const router =createBrowserRouter([{
       path:'main-course',
       element:<
         TypePage
-        image={`/public/menuCover.png`}
+        image={`/menuCover.png`}
         title={`Main Course`}
         list={starterList}
       />
@@ -40,7 +40,7 @@ const router =createBrowserRouter([{
       path:'chefs-recommended',
       element:<
         TypePage
-        image={`/public/chefsReccCover.png`}
+        image={`/chefsReccCover.png`}
         title={`Chef's Recommended Specials`}
         list={starterList}
       />
