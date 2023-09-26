@@ -10,7 +10,8 @@ const FoodPage = () => {
 
         <div className='flex flex-col items-center  py-9 bg-slate-100 min-h-screen'>
             <Link to='/'><img className='h-24' src="/logo2.png" alt="" /></Link>
-            <model-viewer alt="3d cake" src={`/${info.src}`} shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+            <model-viewer alt="3d cake" src={`/${info.src}`} ar
+              auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
             <div className='flex flex-col items-center gap-3'>
                 <div className='text-5xl font-bold text-dark-brown'>{info.name}</div>
                 <div className="w-96 text-center">{info.desc}</div>
